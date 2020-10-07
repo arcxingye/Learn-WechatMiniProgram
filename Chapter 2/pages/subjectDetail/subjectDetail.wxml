@@ -1,0 +1,37 @@
+<view class="content">
+  <view class="item">
+    <view class="pic">
+       <image src="/pages/images/detail/pdsrz.jpg" style="width:312px;height:219px;"></image>
+    </view>
+    <view class="opr">
+      <view>
+        <image src="/pages/images/icon/xingxing.jpg" style="width:18px;height:17px;"></image>
+      </view>
+      <view>17841</view>
+      <view class="zw"></view>
+      <view>
+        <image src="/pages/images/icon/huifu.jpg" style="width:21px;height:20px;"></image>
+      </view>
+      <view>48</view>
+    </view>
+    <view class="hr"></view>
+  </view>
+
+  <view class="item">
+    <view class="pic">
+       <image src="/pages/images/detail/ycqdb.jpg" style="width:312px;height:219px;"></image>
+    </view>
+    <view class="opr">
+      <view>
+        <image src="/pages/images/icon/xingxing.jpg" style="width:18px;height:17px;"></image>
+      </view>
+      <view>4890</view>
+      <view class="zw"></view>
+      <view>
+        <image src="/pages/images/icon/huifu.jpg" style="width:21px;height:20px;"></image>
+      </view>
+      <view>7</view>
+    </view>
+    <view class="hr"></view>
+  </view>
+</view>

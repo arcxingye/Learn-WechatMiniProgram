@@ -1,0 +1,64 @@
+<view class="content">
+  <view class="item">
+    <view>
+      <image src="/images/icon/editInfo.jpg" style="width:21px;height:21px;margin-right:10px;"></image>
+    </view>
+    <view>刘慕白</view>
+  </view>
+  <view class="line"></view>
+   <view class="item">
+    <view>
+      <image src="/images/icon/editInfo.jpg" style="width:21px;height:21px;margin-right:10px;"></image>
+    </view>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class="picker">
+        {{array[index]}}
+      </view>
+    </picker>
+  </view>
+  <view class="line"></view>
+   <view class="item">
+    <view>
+      <image src="/images/icon/editInfo.jpg" style="width:21px;height:21px;margin-right:10px;"></image>
+    </view>
+    <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-12-31" bindchange="bindDateChange" >
+       出生年份：{{date}}
+    </picker>
+  </view>
+  <view class="line"></view>
+   <view class="item">
+    <view>
+      <image src="/images/icon/editInfo.jpg" style="width:21px;height:21px;margin-right:10px;"></image>
+    </view>
+    <view>最高学历 本科</view>
+  </view>
+  <view class="line"></view>
+   <view class="item">
+    <view>
+      <image src="/images/icon/editInfo.jpg" style="width:21px;height:21px;margin-right:10px;"></image>
+    </view>
+    <view>工作年限 3年</view>
+  </view>
+  <view class="line"></view>
+   <view class="item">
+    <view>
+      <image src="/images/icon/editInfo.jpg" style="width:21px;height:21px;margin-right:10px;"></image>
+    </view>
+    <view>13811112222</view>
+  </view>
+  <view class="line"></view>
+    <view class="item">
+    <view>
+      <image src="/images/icon/editInfo.jpg" style="width:21px;height:21px;margin-right:10px;"></image>
+    </view>
+    <view>所在城市 北京</view>
+  </view>
+  <view class="line"></view>
+    <view class="item">
+    <view>
+      <image src="/images/icon/editInfo.jpg" style="width:21px;height:21px;margin-right:10px;"></image>
+    </view>
+    <view>一句话描述：不怕吃苦，不怕吃亏。</view>
+  </view>
+  <view class="line"></view>
+</view>

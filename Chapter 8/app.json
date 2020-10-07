@@ -1,0 +1,37 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/community/community",
+    "pages/me/me",
+    "pages/resume/resume",
+    "pages/baseInfo/baseInfo"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00B38A",
+    "navigationBarTitleText": "拉勾",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#00B38A",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/images/bar/index-0.jpg",
+      "selectedIconPath": "/images/bar/index-1.jpg"
+    },{
+      "pagePath": "pages/community/community",
+      "text": "言职",
+      "iconPath": "/images/bar/community-0.jpg",
+      "selectedIconPath": "/images/bar/community-1.jpg"
+    },{
+      "pagePath": "pages/me/me",
+      "text": "我",
+      "iconPath": "/images/bar/me-0.jpg",
+      "selectedIconPath": "/images/bar/me-1.jpg"
+    }]
+  }
+}

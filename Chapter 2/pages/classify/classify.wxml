@@ -1,0 +1,46 @@
+<view class="content">
+  <view class="line"></view>
+  <view class="wrapper">
+    <view class="search">
+      <image src="/pages/images/icon/search.jpg" style="width:25px;height:23px;"></image>
+    </view>
+    <view><input  placeholder="菜谱搜索"/></view>
+  </view>
+  <view class="line"></view>
+  <view class="title">
+    <view class="pre">自定义分类</view>
+    <view class="last">任意选择两个可放在首页上</view>
+  </view>
+  <view class="menu">
+     <button class="btn">健身菜谱</button>
+     <button class="btn">饼</button>
+  </view>
+   <view class="menu">
+     <button class="btn">吃吃</button>
+     <button class="btn">炒菜</button>
+  </view>
+   <view class="menu">
+     <button class="btn">素</button>
+     <button class="btn">我爱</button>
+  </view>
+   <view class="menu">
+     <button class="btn">主食（一人）</button>
+     <button class="btn">菜</button>
+  </view>
+   <view class="menu">
+     <button class="btn">爱心早餐</button>
+     <button class="btn">独特川凉菜</button>
+  </view>
+   <view class="menu">
+     <button class="btn">面食主食类</button>
+     <button class="btn">凉拌素拌菜</button>
+  </view>
+   <view class="menu">
+     <button class="btn">独特精品菜</button>
+     <button class="btn">奇葩小吃类</button>
+  </view>
+   <view class="menu">
+     <button class="btn">年夜饭</button>
+     <button class="btn">每日菜单</button>
+  </view>
+</view>

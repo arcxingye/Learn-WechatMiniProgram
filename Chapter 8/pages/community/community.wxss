@@ -1,0 +1,32 @@
+.content{
+  font-family: "Microsoft YaHei";
+}
+.title{
+  text-align: center;
+  margin-top:30px;
+  margin-bottom: 30px;
+  color: #cccccc;
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+.item view{
+  margin: 0 auto;
+  text-align: center;
+}
+.pic{
+  border-radius: 50%;
+}
+.btn{
+  width:60%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #00B38A;
+  margin:0 auto;
+  color: #cccccc;
+  border-radius: 3px;
+}

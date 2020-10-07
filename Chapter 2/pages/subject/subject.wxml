@@ -1,0 +1,156 @@
+<view class="content">
+  <view class="section">
+    <swiper autoplay="true" interval="3000" duration="1000" indicator-dots="{{indicatorDots}}">
+       <block wx:for="{{imgUrls}}">
+          <swiper-item>
+             <image src="{{item}}" width="350" height="211" class="slide-image"></image>
+          </swiper-item>
+       </block>
+    </swiper>
+  </view>
+
+  <view class="opr">
+    <view class="btn">
+      <view>
+         <image src="/pages/images/icon/zuixin.jpg" style="width:36px;height:25px;"></image>
+      </view>
+      <view>最新</view>
+    </view>
+
+    <view class="btn">
+      <view>
+         <image src="/pages/images/icon/zuire.jpg" style="width:32px;height:34px;"></image>
+      </view>
+      <view>最热</view>
+    </view>
+  </view>
+
+  <view class="list">
+     <view class="item" bindtap="seeDetail" id="0">
+       <view>
+          <image src="/pages/images/list/pic-1.jpg" style="width:78px;height:60px;"></image>
+       </view>
+       <view class="desc">
+         <view class="title">爱心早餐</view>
+         <view class="count">
+            <view>共26个菜谱</view>
+            <view>
+              <image src="/pages/images/icon/xingxing.jpg" style="width:18px;height:17px;"></image>
+            </view>
+            <view>19</view>
+            <view>
+              <image src="/pages/images/icon/yanjing.jpg" style="width:23px;height:17px;"></image>
+            </view>
+            <view>13298</view>
+         </view>
+       </view>
+     </view>
+     <view class="hr"></view>
+
+     <view class="item" bindtap="seeDetail" id="1">
+       <view>
+          <image src="/pages/images/list/pic-2.jpg" style="width:78px;height:60px;"></image>
+       </view>
+       <view class="desc">
+         <view class="title">营养炖菜</view>
+         <view class="count">
+            <view>共46个菜谱</view>
+            <view>
+              <image src="/pages/images/icon/xingxing.jpg" style="width:18px;height:17px;"></image>
+            </view>
+            <view>295</view>
+            <view>
+              <image src="/pages/images/icon/yanjing.jpg" style="width:23px;height:17px;"></image>
+            </view>
+            <view>16678</view>
+         </view>
+       </view>
+     </view>
+     <view class="hr"></view>
+
+    <view class="item" bindtap="seeDetail" id="2">
+       <view>
+          <image src="/pages/images/list/pic-3.jpg" style="width:78px;height:60px;"></image>
+       </view>
+       <view class="desc">
+         <view class="title">主食也不单调</view>
+         <view class="count">
+            <view>共25个菜谱</view>
+            <view>
+              <image src="/pages/images/icon/xingxing.jpg" style="width:18px;height:17px;"></image>
+            </view>
+            <view>134</view>
+            <view>
+              <image src="/pages/images/icon/yanjing.jpg" style="width:23px;height:17px;"></image>
+            </view>
+            <view>11784</view>
+         </view>
+       </view>
+     </view>
+     <view class="hr"></view>
+
+     <view class="item" bindtap="seeDetail" id="3">
+       <view>
+          <image src="/pages/images/list/pic-4.jpg" style="width:78px;height:60px;"></image>
+       </view>
+       <view class="desc">
+         <view class="title">中式简餐菜肴</view>
+         <view class="count">
+            <view>共146个菜谱</view>
+            <view>
+              <image src="/pages/images/icon/xingxing.jpg" style="width:18px;height:17px;"></image>
+            </view>
+            <view>122</view>
+            <view>
+              <image src="/pages/images/icon/yanjing.jpg" style="width:23px;height:17px;"></image>
+            </view>
+            <view>16788</view>
+         </view>
+       </view>
+     </view>
+     <view class="hr"></view>
+
+     <view class="item" bindtap="seeDetail" id="4">
+       <view>
+          <image src="/pages/images/list/pic-5.jpg" style="width:78px;height:60px;"></image>
+       </view>
+       <view class="desc">
+         <view class="title">犯懒专用宝宝饭</view>
+         <view class="count">
+            <view>共43个菜谱</view>
+            <view>
+              <image src="/pages/images/icon/xingxing.jpg" style="width:18px;height:17px;"></image>
+            </view>
+            <view>555</view>
+            <view>
+              <image src="/pages/images/icon/yanjing.jpg" style="width:23px;height:17px;"></image>
+            </view>
+            <view>688666</view>
+         </view>
+       </view>
+     </view>
+     <view class="hr"></view>
+
+    <view class="item" bindtap="seeDetail" id="5">
+       <view>
+          <image src="/pages/images/list/pic-6.jpg" style="width:78px;height:60px;"></image>
+       </view>
+       <view class="desc">
+         <view class="title">用烤箱解放你的双手</view>
+         <view class="count">
+            <view>共35个菜谱</view>
+            <view>
+              <image src="/pages/images/icon/xingxing.jpg" style="width:18px;height:17px;"></image>
+            </view>
+            <view>855</view>
+            <view>
+              <image src="/pages/images/icon/yanjing.jpg" style="width:23px;height:17px;"></image>
+            </view>
+            <view>33787</view>
+         </view>
+       </view>
+     </view>
+     <view class="hr"></view>
+
+  </view>
+</view>

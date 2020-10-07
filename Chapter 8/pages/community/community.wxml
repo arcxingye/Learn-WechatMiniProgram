@@ -1,0 +1,95 @@
+<view class="content">
+  <view class="title">--你对哪些话题感兴趣？--</view>
+  <swiper style="height:350px;">
+    <swiper-item>
+      <view class="item">
+        <view>
+          <view>
+            <image src="/images/yanzhi/android.jpg" style="width:50px;height:50px;" class="pic"></image>
+          </view>
+          <view>Android</view>
+        </view>
+        <view>
+          <view>
+            <image src="/images/yanzhi/bj.jpg" style="width:50px;height:50px;" class="pic"></image>
+          </view>
+          <view>北京</view>
+        </view>
+        <view>
+          <view>
+            <image src="/images/yanzhi/zc.jpg" style="width:50px;height:50px;" class="pic"></image>
+          </view>
+          <view>职场</view>
+        </view>
+      </view>
+
+      <view class="item">
+        <view>
+          <view>
+            <image src="/images/yanzhi/sz.jpg" style="width:50px;height:50px;" class="pic"></image>
+          </view>
+          <view>深圳</view>
+        </view>
+        <view>
+          <view>
+            <image src="/images/yanzhi/java.jpg" style="width:50px;height:50px;" class="pic"></image>
+          </view>
+          <view>Java</view>
+        </view>
+        <view>
+          <view>
+            <image src="/images/yanzhi/lg.jpg" style="width:50px;height:50px;" class="pic"></image>
+          </view>
+          <view>拉勾网</view>
+        </view>
+      </view>
+
+      <view class="item">
+        <view>
+          <view>
+            <image src="/images/yanzhi/cpjl.jpg" style="width:50px;height:50px;" class="pic"></image>
+          </view>
+          <view>产品经理</view>
+        </view>
+        <view>
+          <view>
+            <image src="/images/yanzhi/jr.jpg" style="width:50px;height:50px;" class="pic"></image>
+          </view>
+          <view>互联网金融</view>
+        </view>
+        <view>
+          <view>
+            <image src="/images/yanzhi/qdkf.jpg" style="width:50px;height:50px;" class="pic"></image>
+          </view>
+          <view>前端开发</view>
+        </view>
+      </view>
+
+    </swiper-item>
+    <swiper-item>
+      <view class="item">
+        <view>
+          <view>
+            <image src="/images/yanzhi/yy.jpg" style="width:50px;height:50px;" class="pic"></image>
+          </view>
+          <view>运营</view>
+        </view>
+        <view>
+          <view>
+            <image src="/images/yanzhi/sh.jpg" style="width:50px;height:50px;" class="pic"></image>
+          </view>
+          <view>上海</view>
+        </view>
+        <view>
+          <view>
+            <image src="/images/yanzhi/hr.jpg" style="width:50px;height:50px;" class="pic"></image>
+          </view>
+          <view>HR</view>
+        </view>
+      </view>
+    </swiper-item>
+  </swiper>
+  <view class="btn">
+    请至少选择三个话题
+  </view>
+</view>

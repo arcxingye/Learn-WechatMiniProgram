@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/subject/subject",
+    "pages/classify/classify",
+    "pages/download/download",
+    "pages/me/me",
+    "pages/setup/setup",
+    "pages/subjectDetail/subjectDetail"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#494949",
+    "navigationBarTitleText": "专题",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "backgroundColor": "#303133",
+    "color": "#ffffff",
+    "selectedColor": "#CC1004",
+    "list": [{
+      "pagePath": "pages/subject/subject",
+      "text": "专题",
+      "iconPath": "pages/images/tab/subject-0.jpg",
+      "selectedIconPath": "pages/images/tab/subject-1.jpg"
+    },{
+      "pagePath": "pages/classify/classify",
+      "text": "分类",
+      "iconPath": "pages/images/tab/classify-0.jpg",
+      "selectedIconPath": "pages/images/tab/classify-1.jpg"
+    },{
+      "pagePath": "pages/download/download",
+      "text": "下载",
+      "iconPath": "pages/images/tab/download-0.jpg",
+      "selectedIconPath": "pages/images/tab/download-1.jpg"
+    },{
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "pages/images/tab/me-0.jpg",
+      "selectedIconPath": "pages/images/tab/me-1.jpg"
+    },{
+      "pagePath": "pages/setup/setup",
+      "text": "设置",
+      "iconPath": "pages/images/tab/setup-0.jpg",
+      "selectedIconPath": "pages/images/tab/setup-1.jpg"
+    }]
+  }
+}
